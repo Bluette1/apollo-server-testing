@@ -1,6 +1,10 @@
-##apollo-server-testing
+## apollo-server-testing
 
 An Apollo GraphQL Typescript API server testing example project - coded for learning purposes.
+
+![Linters](https://github.com/bluette1/apollo-server-testing/workflows/Linters/badge.svg)
+
+![Test with jest](https://github.com/Bluette1/apollo-server-testing/workflows/Test%20with%20jest/badge.svg)
 
 ![Demo picture](./screenshot.png)
 

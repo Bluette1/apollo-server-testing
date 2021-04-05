@@ -5,9 +5,9 @@ name: Test with jest
 
 on:
   push:
-    branches: [ apollo-server-testing ]
+    branches: [ feature/add-apollo-server-testing ]
   pull_request:
-    branches: [ apollo-server-testing ]
+    branches: [ feature/add-apollo-server-testing ]
 
 jobs:
   build:

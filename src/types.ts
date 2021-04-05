@@ -1,0 +1,1 @@
+export type Movie = { id: String, title: String };

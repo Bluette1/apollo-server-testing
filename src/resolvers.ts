@@ -5,7 +5,7 @@ const resolvers = {
     movies: (
       _: unknown,
       __: unknown,
-      { dataSources }: any
+      { dataSources }: any,
     ): Promise<Movie[]> => dataSources.moviesAPI.getMovies(),
   },
 };

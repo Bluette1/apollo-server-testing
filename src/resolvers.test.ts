@@ -42,7 +42,7 @@ describe('MoviesAPI', () => {
     // We check to see if the `movies`
     // endpoint is called properly.
     expect(moviesAPI.get).toHaveBeenCalledWith(
-      'movies'
+      'movies',
     );
 
     // We check to see if we have

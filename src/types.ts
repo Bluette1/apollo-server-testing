@@ -1,1 +1,1 @@
-export type Movie = { id: String, title: String };
+export type Movie = { id: string, title: string };

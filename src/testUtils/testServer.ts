@@ -8,6 +8,6 @@ import typeDefs from '../typeDefs';
 
 export default function testServer(dataSources: any): ApolloServerTestClient {
   return createTestClient(
-    new ApolloServer({ typeDefs, resolvers, dataSources })
+    new ApolloServer({ typeDefs, resolvers, dataSources }),
   );
 }

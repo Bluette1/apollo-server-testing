@@ -8,7 +8,7 @@ export default class MoviesAPI extends RESTDataSource {
   }
 
   async getMovies(): Promise<Movie[]> {
-    return await this.get(
+    return this.get(
       'movies',
     );
   }

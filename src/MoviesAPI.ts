@@ -1,8 +1,5 @@
 import { RESTDataSource } from 'apollo-datasource-rest';
 import { Movie } from './types';
-import dotenv from 'dotenv';
-
-dotenv.config({ path: __dirname + '/.env' });
 
 export default class MoviesAPI extends RESTDataSource {
   constructor() {
